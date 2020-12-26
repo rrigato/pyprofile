@@ -1,2 +1,3 @@
 *.pyc
 */node_modules/*
+web_login_compiled.js
