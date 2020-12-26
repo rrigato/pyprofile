@@ -1,6 +1,8 @@
 from util.submodule import stub_routine_submod
 
 def sub_routine_pyprofile():
+    """Sample docstring
+    """
     stub_routine_submod()
     stub_routine_submod()
 
