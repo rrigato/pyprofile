@@ -10,3 +10,10 @@ The goal of this repo is to poc code standards on python files to ensure functio
 ```
 python -m cProfile -m pyprofile
 ```
+
+## eslint_config
+
+### initialize_node
+```
+    node use 14.10.1
+```
