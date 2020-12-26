@@ -1,5 +1,11 @@
 {
+    "scripts": {
+        "build": "npx babel web_login.js --out-file web_login_compiled.js"
+    },
     "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
         "eslint": "^7.2.0",
         "eslint-config-airbnb": "^18.2.1",
         "eslint-plugin-import": "^2.22.1",
@@ -8,6 +14,7 @@
         "eslint-plugin-react-hooks": "^4.0.0"
     },
     "dependencies": {
-        "puppeteer": "^5.5.0"
+        "puppeteer": "^5.5.0",
+        "regenerator-runtime": "^0.13.7"
     }
 }

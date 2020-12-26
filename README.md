@@ -17,3 +17,8 @@ python -m cProfile -m pyprofile
 ```
     node use 14.10.1
 ```
+
+### setup_eslint
+```
+npx eslint --init
+```
