@@ -1,3 +1,4 @@
+"""This module does blah blah."""
 from util.submodule import stub_routine_submod
 
 def sub_routine_pyprofile():
