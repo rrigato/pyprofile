@@ -8,8 +8,7 @@ def sub_routine_pyprofile():
     stub_routine_submod()
 
 def main():
-    """Calls sub_routine_pyprofile
-    """
+    print("hello worldddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd")
     sub_routine_pyprofile()
 
 if __name__ == "__main__":

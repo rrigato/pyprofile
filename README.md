@@ -23,13 +23,14 @@ python -m cProfile -m pyprofile
 npx eslint --init
 ```
 
-### pylint_directory
+### pylint
 Pylint does not appear to add the current directory to the python path.
 
 Needed to add the current directory to sys.path in pylintrc init,
 
 ```
-import sys; sys.path.append(".")
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
 ```
 this is a workaround that I do not like
 
@@ -38,3 +39,11 @@ The above pylintrc configuration works when running pylint inside the :
 ```
 pylint pyprofile.py
 ```
+
+### flake8
+Simple invocation:
+```
+flake8 .
+```
+
+The ```.flake8``` file controls customization and ignores
