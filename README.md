@@ -1,5 +1,5 @@
-#pyprofile
-The goal of this repo is to poc code standards on python files to ensure function size
+# pyprofile
+The goal of this repo is to poc code standards on python and javascript file linting
 
 ## requirements
 - function line count by file starting with the main entry point
@@ -15,7 +15,7 @@ python -m cProfile -m pyprofile
 
 ### initialize_node
 ```
-    node use 14.10.1
+node use 14.10.1
 ```
 
 ### setup_eslint
