@@ -1,4 +1,4 @@
+"""Test module."""
 def stub_routine_submod():
-    """Test docstring
-    """
+    """Test docstring."""
     print("hello world")

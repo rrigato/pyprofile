@@ -1,5 +1,8 @@
 [flake8]
-max-line-length=100
+docstring-convention=numpy
+exclude=*__init__.py
 #E302 = 2 blank lines after functions
 #W391=blank line at end of file
+#D414 = docstring Raises section has no content
 ignore=E302,E305,W391
+max-line-length=100
