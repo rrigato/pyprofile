@@ -1,10 +1,12 @@
 from util.submodule import stub_routine_submod
 
+
 def sub_routine_pyprofile():
     """Sub routine import calls"""
     stub_routine_submod()
     stub_routine_submod()
-    
+
+
 def main():
     """Entry point into script.
 
@@ -16,6 +18,7 @@ def main():
     """
     print("hello worldddddddddddddddddddddddddddddddddddddddddddddddddddd")
     sub_routine_pyprofile()
+
 
 if __name__ == "__main__":
     main()
