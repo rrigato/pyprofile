@@ -4,5 +4,7 @@ exclude=*__init__.py
 #E302 = 2 blank lines after functions
 #W391=blank line at end of file
 #D414 = docstring Raises section has no content
-ignore=E302,E305,W391
+#D100 = Missing docstring in public module
+#D400 First line should end with a period
+ignore=E302, E305, W391, D100, D400
 max-line-length=100

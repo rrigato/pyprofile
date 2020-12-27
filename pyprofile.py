@@ -1,11 +1,10 @@
-"""Module docstring."""
 from util.submodule import stub_routine_submod
 
 def sub_routine_pyprofile():
-    """Sub routine import calls."""
+    """Sub routine import calls"""
     stub_routine_submod()
     stub_routine_submod()
-
+    
 def main():
     """Entry point into script.
 
