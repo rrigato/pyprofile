@@ -47,3 +47,18 @@ flake8 .
 ```
 
 The ```.flake8``` file controls customization and ignores
+
+## puppeteer
+
+### unhandled_rejections
+If an unexpected error occurs in the login process, puppeteer will reject the promise.
+
+You can use a try/catch block to handle this error or alternatively allow the error to write to stderr on the command line by invoking the node script with the following:
+
+```
+node --unhandled-rejections=strict web_login.js
+
+echo $? # false if unhandled rejection from puppeteer, true otherwise
+```
+
+https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode
