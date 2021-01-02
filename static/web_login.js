@@ -29,11 +29,11 @@ const puppeteer = require('puppeteer');
     page.click('a[href="https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2F"]');
 
     const elementHandle = await page.$(
-        'iframe[src="https://www.reddit.com/login/?experiment_d2x_sso_login_link=enabled"]',
+        'iframe'
     );
-    console.log(process.env.REDDIT_USERNAME);
     
-
+    debugger;
+    console.log(elementHandle);
     const frame = await elementHandle.contentFrame();
 
     await frame.type('#loginUsername', process.env.REDDIT_USERNAME);
